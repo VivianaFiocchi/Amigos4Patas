@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+/* contacto */
+
+.titulo{
+    font-size: 50px;
+margin-bottom: 2rem;
+}
+
+.contacto {
+  height: 100vh;
+  width: auto;
+}
+
+.grid-contenedor {
+  display: grid;
+  height: 100%;
+  width: auto;
+  grid-template-columns: 1.75fr 1.25fr;
+}
+
+/* Formulario */
+
+.form-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  font-family: "Indie Flower";
+  font-size: large;
+  font-weight: bold;
+}
+
+.form-contacto input {
+  height: 2rem;
+  border-radius: 0.5rem;
+}
+
+.form-contacto select {
+  height: 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.form-contacto textarea {
+  border-radius: 0.5rem;
+}
+
+.map-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+iframe {
+  border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .grid-contenedor {
+    grid-template-columns: 1fr;
+  }
+ .map-item iframe{
+      width: 90%;
+  }
+
+  .contacto{
+    height: 200vh;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .grid-contenedor {
+    grid-template-columns: 1fr;
+  }
+ .map-item iframe{
+      width: 90%;
+  }
+
+  .contacto{
+    height: 200vh;
+    width: auto;
+  }
+}

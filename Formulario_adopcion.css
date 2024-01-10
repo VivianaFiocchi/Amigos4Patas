@@ -1,0 +1,49 @@
+main {
+  margin: 2%;
+}
+
+input {
+
+  border-radius: 0.5rem;
+  height: 2rem;
+}
+
+.contenedor-header{
+    background-image: linear-gradient(
+        to right,
+        hsla(34, 68%, 73%, 0.784),
+        hsla(334, 62%, 55%, 0.619)
+      ),
+      url(imagenes/mano\ y\ pata.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+
+    background-attachment: fixed;
+}
+
+.Titulo-form{
+    height: 53.5vh;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "Mystery Quest";
+    font-size: 30px;
+    color: rgb(53, 32, 23);
+}
+
+.datos-form h3{
+ margin-bottom: 2%;
+ font-size: x-large;
+}
+
+.texto-form h3{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-size: x-large;
+   }
+
+.preg-antes{
+    margin-bottom: 2%;
+}

@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Modak&display=swap");
+
+/* Body gral */
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+/*Variables  */
+
+:root {
+  --main-color: linear-gradient(to right, #eecda3, #ef629f);
+}
+
+/* Estilo GRAL */
+
+section.Cuerpo {
+  margin: 0.5%;
+}
+body {
+  height: 100vh;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  text-align: justify;
+  background-image: linear-gradient(
+      to right,
+      hsla(34, 68%, 73%, 0.784),
+      hsla(334, 68%, 65%, 0.619)
+    ),
+    url(imagenes/fondo.png);
+}
+hr {
+  background-color: #8a63b6;
+  opacity: 30%;
+}
+/* INPUT - Botones */
+
+input#Enviar {
+  font-size: x-large;
+  font-family: "Merienda";
+  background-color: brown;
+  color: bisque;
+  border: none;
+}
+
+input#Enviar:hover {
+  background-color: rgb(218, 93, 93);
+}
+
+input#Borrar:hover {
+  background-color: rgb(218, 93, 93);
+}
+
+input#Borrar {
+  font-size: x-large;
+  font-family: "Merienda";
+  background-color: brown;
+  color: bisque;
+  border: none;
+  margin-top: 1rem;
+}
+
+/* Estilo de Titulos y textos */
+
+
+
+.titulo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1%;
+  font-family: "Modak", cursiva;
+  font-size: 70px;
+  font-weight: lighter;
+  color: #4b2025;
+  letter-spacing: 50px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 1%;
+}
+p {
+  margin-top: 1%;
+}
+
+.texto {
+  text-align: justify;
+  margin: 2% 3%;
+  line-height: 50px;
+  font-weight: lighter;
+  font-size: x-large;
+}
+
+/* Barra de Navegacion Horizontal*/
+
+.Nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  margin-top: 1%;
+  z-index: 1;
+}
+
+.menu {
+  display: flex;
+}
+
+.item {
+  list-style: none;
+  margin: 0 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.menu a {
+  text-decoration: none;
+  color: bisque;
+}
+
+/* Color de los bloques de la barra de Navegacion al posar el mouse */
+nav li a:hover {
+  text-decoration: underline;
+}
+
+/* Animacion Java Barra Navegacion*/
+
+.nav-active {
+  background: var(--main-color);
+  box-shadow: 5px -1px 20px 10px rgb(119, 43, 57);
+  padding: 1% 0% 1% 0%;
+  transition: 0.5s;
+  margin-top: 0%;
+}
+
+/* Logo */
+
+.Logo {
+  display: flex;
+  align-items: center;
+  width: 50px;
+  height: 6%;
+  margin-left: 10px;
+}
+
+/* Pie de Pagina */
+
+footer {
+  font-size: medium;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+footer ul li {
+  display: flex;
+  padding: 36px 0 36px 30px;
+  list-style: none;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 30px;
+}
+
+footer ul li a {
+  display: flex;
+  color: rgb(91, 51, 26);
+  text-align: center;
+  padding: 10px 5px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+footer li a:hover {
+  background-color: #8a63b6;
+}
+
+.img-foot {
+  display: flex;
+  justify-content: center;
+}
+
+.contacto-footer h3 {
+  text-align: left;
+  color: rgb(91, 51, 26);
+  font-size: x-large;
+}
+
+.img-foot a {
+  margin: 10% 3%;
+}
+
+.img-foot img {
+  height: 40px;
+}
+
+.grid {
+  background-color: #eecda3;
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  padding: 2rem 0;
+  text-align: justify;
+}
+
+.info-footer {
+  max-width: 90%;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.info-footer h3 {
+  text-align: left;
+  color: rgb(91, 51, 26);
+  font-size: x-large;
+}
+.info-footer p {
+  text-align: left;
+  color: rgb(91, 51, 26);
+  font-size: large;
+}
+
+.logo-foot img{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  height: 150px;
+  opacity: 50%;
+ 
+}
+
+
+.contacto-footer {
+  margin-right: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(1,0.5fr);
+  }
+
+  .info-footer {
+    max-width: 80%;
+    margin-left: 2.5rem;
+  }
+
+  .logo-foot{
+    max-width: 80%;
+    height: 100px;
+    margin:35% 1%;
+   
+  }
+
+  .contacto-footer {
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    max-width: 80%;
+  }
+}

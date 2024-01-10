@@ -1,0 +1,41 @@
+/* .Cuerpo{
+    height: 100vh;
+    background-image: linear-gradient(
+        to right,
+        hsla(34, 68%, 73%, 0.784),
+        hsla(334, 62%, 55%, 0.619)
+      ),
+      url(imagenes/mirada\ perro.webp);
+      background-repeat: no-repeat;
+      background-size: cover;
+} */
+
+
+.texto{
+font-size: large;
+}
+
+
+
+ul.Objetivos{  
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+
+}
+
+
+.titulo{
+    margin: 5% 0% 0% 0%;
+}
+
+img.img-objetivos{
+    
+    background-image: linear-gradient(
+      to right,
+      hsla(34, 68%, 73%, 0.784),
+      hsla(334, 62%, 55%, 0.619)
+    ),
+    url(imagenes/mirada\ perro.webp);
+}
+

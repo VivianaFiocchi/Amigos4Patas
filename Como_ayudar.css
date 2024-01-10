@@ -1,0 +1,47 @@
+
+/* Main */
+.titulo{
+  margin-top: 3%;
+}
+
+
+.texto{
+ text-align: center;
+}  
+
+.Centro {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Centro h2{
+    font-size:x-large; color: rgb(90, 25, 25);
+}
+
+aside{
+  margin: 2% 0%;
+}
+tbody ul{
+    text-align: left;
+    margin: 6%;
+}
+table {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th{
+    text-align: center;
+    border: 1px solid #000;
+  }
+
+  td{
+    border: 1px solid #000;
+  }
+
+h2.titulo-tabla{
+  margin-bottom: 1%;
+  font-size:xx-large;
+  color: rgb(90, 25, 25);
+}

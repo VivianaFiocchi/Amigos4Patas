@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigos 4 Patas</title>
+    <link rel="icon" href="imagenes/icon.png">
+    <link rel="stylesheet" href="A_Style.css">
+    <link rel="stylesheet" href="Formulario_adopcion.css">
+</head>
+
+<body>
+    <!-- Barra de navegacion -->
+    <div class="contenedor-header">
+        <header>
+            <div class="Nav">
+                <img class="Logo" src="imagenes/LOGOO.png" alt="logo amigos 4 patas">
+                <nav class="navegacion">
+                    <ul class="menu">
+                        <li class="item">
+                            <a href="index.html">Inicio</a>
+                        </li>
+                        <li class="item">
+                            <a href="Sobre_nosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="item">
+                            <a href="Objetivos.html">Objetivos</a>
+                        </li>
+                        <li class="item">
+                            <a href="Como_ayudar.html">Como Ayudar</a>
+                        </li>
+                        <li class="item">
+                            <a href="Contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="Titulo-form">
+            <h1><u>Formulario para Adopciones</u></h1>
+        </div>
+    </div>
+    <!-- formulario -->
+    <main>
+        <br>
+        <br>
+        <form>
+            <div class="Sup-form">
+                <div style="text-align: center">
+                    <div class="datos-form">
+                        <h3>Datos del interesado</h3>
+                        <Label for="Nombre">Nombre y Apellido</Label>
+                        <input type="text" placeholder="Nombre y apellido..." required id="Nombre">
+                        <label for="Edad">Edad </label>
+                        <input type="number" placeholder="Edad..." required id="Edad">
+                        <label for="Barrio">Zona de Residencia </label>
+                        <input type="text" placeholder="Barrio" required id="Barrio">
+                        <label for="Direccion">Direccion </label>
+                        <input type="text" placeholder="Direccion..." required id="Direccion">
+                        <label for="Ciudad">Ciudad y Partido </label>
+                        <input type="text" placeholder="Ciudad y Partido..." required id="Ciudad">
+                        <br>
+                        <br>
+                        <label for="Telefono">Telefono </label>
+                        <input type="text" placeholder="Telefono..." required id="Telefono">
+                        <label for="Ocupacion">Ocupacion </label>
+                        <input type="text" placeholder="Ocupacion..." required id="Ocupacion">
+                        <label for="Correo">Correo Electronico </label>
+                        <input type="email" placeholder="Correo..." required id="Correo">
+                        <label for="DNIFoto">Adjuntar foto del DNI (.jpg , .png) </label>
+                        <input type="file" required id="DNIFoto">
+                        <br>
+                        <br>
+                    </div>
+                    <div class="texto-form">
+                        <h3>Ahora unas preguntas...</h3>
+                        <label>El objetivo del siguiente cuestionario es encontrar la combinación óptima entre adoptado
+                            y
+                            adoptante
+                            de
+                            manera que ambos sean felices para siempre.
+                            Por favor, lea todas las preguntas y los requisitos de adopción y, de estar de acuerdo,
+                            responda
+                            el
+                            cuestionario con la mayor claridad posible.</label>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="preg-antes">
+            <ul>
+                <li>Antes de empezar ¿Está interesado en algún perro en particular? Si es así escriba su nombre aquí.
+                </li>
+                <input type="text">
+                <br>
+                <li>En caso de que ya haya sido adoptado ¿Estaría interesado en otro?</li>
+                <label for="Si">Si</label>
+                <input type="radio" name="opcion" id="Si">
+                <label for="No">No</label>
+                <input type="radio" name="opcion" id="No">
+            </ul>
+        </div>
+        <div class="preg-desp">
+            <ol>
+                <li>¿El animal que va a adoptar es para usted o para un tercero?</li>
+                <textarea cols="150" rows="10"> Escribe aqui...</textarea>
+                <li>¿Cuántas personas habitan en el hogar? ¿Cuáles son sus edades? ¿ Cual es su parentesco / vinculo ?
+                </li>
+                <textarea cols="150" rows="10"> Escribe aqui...</textarea>
+                <li> ¿Hay niños en la casa? ¿De qué edad?</li>
+                <textarea cols="150" rows="10"> Escribe aqui...</textarea>
+                <li>¿Están todos los miembros de la familia de acuerdo en adoptar?</li>
+                <textarea cols="150" rows="10"> Escribe aqui...</textarea>
+                <li>. ¿Hay otros animales en la casa?</li>
+                <textarea cols="150" rows="10"> Escribe aqui...</textarea>
+                <li>En caso que los haya, ¿están vacunados y/o castrados? ¿Cuáles son sus edades?</li>
+                <textarea cols="150" rows="10"> Escribe aqui...</textarea>
+                <li>En caso que no los haya, ¿ha tenido? ¿Qué pasó con ellos?</li>
+                <textarea cols="150" rows="10"> Escribe aqui...</textarea>
+                <li>¿Ha pensado qué hará con el animal en vacaciones?</li>
+                <textarea cols="150" rows="10"> Escribe aqui...</textarea>
+                <li>Conoce los gastos y cuidados que implicará incorporar un animal y está dispuesto a asumirlos?
+                    (alimentación, atención veterinaria, etc.)</li>
+                <textarea cols="150" rows="10"> Escribe aqui...</textarea>
+                <li>¿Dónde vivirá el animal adoptado? (casa, depto., PH, casa quinta, etc.)</li>
+                <textarea cols="150" rows="10"> Escribe aqui...</textarea>
+                <li> ¿Es propietario o alquila la propiedad? En caso de ser inquilino, ¿tiene certeza que permiten tener
+                    animales?</li>
+                <textarea cols="150" rows="10"> Escribe aqui...</textarea>
+                <li>En caso de mudanza ¿qué haría con el animal?</li>
+                <textarea cols="150" rows="10"> Escribe aqui...</textarea>
+                <li>¿Posee algún espacio al aire libre? (balcón, terraza, patio, etc). En caso que lo posea indicar si
+                    tienen cercos y/o cerramientos y de qué tipo (rejas, muros, red, etc)</li>
+                <textarea cols="150" rows="10"> Escribe aqui...</textarea>
+                <li> ¿El animal que busca es para compañía, guardia, trabajo, etc.?</li>
+                <textarea cols="150" rows="10"> Escribe aqui...</textarea>
+                <li> ¿Cuántas horas estima que el animal estará solo en la propiedad?</li>
+                <textarea cols="150" rows="10"> Escribe aqui...</textarea>
+                <li>¿Cuántas veces lo sacará a pasear por día?</li>
+                <textarea cols="150" rows="10"> Escribe aqui...</textarea>
+                <li>¿Está al tanto de que el animal necesitará un período aprox. de 15 a 30 días para adaptarse a su
+                    nueva familia, horarios, lugares, etc.?</li>
+                <textarea cols="150" rows="10"> Escribe aqui...</textarea>
+                <li>Ante una inadaptación o problema de comportamiento en el animal que adopte, ¿qué haría?</li>
+                <textarea cols="150" rows="10"> Escribe aqui...</textarea>
+                <li>Por favor describa las características del animal que busca adoptar y cualquier dato que considere
+                    importante a tener en cuenta.</li>
+                <textarea cols="150" rows="10"> Escribe aqui...</textarea>
+                <li>¿Por qué se decide por un cachorro?</li>
+                <textarea cols="150" rows="10"> Escribe aqui...</textarea>
+                <li>¿Qué cuidados cree que necesita un cachorro?</li>
+                <textarea cols="150" rows="10"> Escribe aqui...</textarea>
+                <li> ¿Es usted consciente que un cachorro requiere de mayor atención y puede que durante la adaptación
+                    haga sus necesidades en diferentes lugares de la casa, rompa objetos, llore por las noches, etc?
+                </li>
+                <textarea cols="150" rows="10"> Escribe aqui...</textarea>
+                <li>Es un requisito prioritario el compromiso de castrar al cachorro adoptado entre los 6 y los 8 meses
+                    de edad. Estás de acuerdo en cumplirlo?</li>
+                <label>Si</label>
+                <input type="radio" name="opcion1">
+                <label>No</label>
+                <input type="radio" name="opcion1">
+                <li>¿Qué ocurriría si el cachorro crece más de lo esperado?</li>
+                <textarea cols="150" rows="10"> Escribe aqui...</textarea>
+                <br>
+                <br>
+                <input type="submit" value="Enviar Formulario" id="Enviar">
+                <input type="reset" value="Borrar Formulario" id="Borrar">
+            </ol>
+        </div>
+        </form>
+    </main>
+    <!-- Pie de Pagina -->
+    <footer>
+        <div class="grid">
+            <div class="info-footer">
+                <h3>Nuestros datos</h3>
+                <p>
+                    Argentina <br>
+                    Buenos Aires <br>
+                    Calle imaginaria Nro 1234 <br>
+                    Telefono: +54 223-155000000 <br>
+                    Email: info@oooooo.com <br>
+                </p>
+            </div>
+            <div class="logo-foot">
+                <img src="imagenes/LOGOO.png" alt="logo">
+            </div>
+            <div class="contacto-footer">
+                <h3> <u>Seguinos en:</u> </h3>
+                <div class="img-foot">
+                    <a href="https://www.facebook.com/">
+                        <img src="imagenes/fc.png" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <img src="imagenes/In.png" alt="">
+                    </a>
+                    <a href="https://www.youtube.com/">
+                        <img src="imagenes/yt.png" alt="">
+                    </a>
+                    <a href="https://ar.linkedin.com/">
+                        <img src="imagenes/lk.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="Style.js"></script>
+</body>
+
+</html>
